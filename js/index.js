@@ -9,9 +9,11 @@ const slider = document.querySelector('.slider');
 
 
 //inseriamo le imagini nel html
-for(let i = 0; i < imgs.length; i++){
+let i = 0
+while(i < imgs.length){
     console.log(imgs[i]);
     contentItem += `<div class="item"><img src="img/${imgs[i]}" alt=""></div>`
+    i++;
 
 }
 
